@@ -1,0 +1,144 @@
+body {
+  background-color: #427aa1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* section styling */
+
+/* top-nav section */
+.top-nav {
+  background-color: #55876c;
+  position: fixed;
+  height: 8rem;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.contact-bar {
+  padding-top: 10rem;
+}
+.bottom-bar {
+  background-color: #55876c;
+  height: 8rem;
+  max-width: 100%;
+}
+.nav-bar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+}
+
+.bottom-bar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+li {
+  padding-right: 2rem;
+}
+
+.section-intro {
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+}
+
+.name {
+  color: #72a53b;
+}
+
+/* projects section */
+.project-titles {
+  color: #874000;
+}
+
+/* souls adventure */
+.souls-adventure-description {
+  padding-top: 5rem;
+  font-size: 1.7rem;
+}
+
+/* tweeter */
+.tweeter-row {
+  padding-top: 57rem;
+}
+
+/* escape game */
+.escape-game-row {
+  padding-top: 10rem;
+}
+
+/* image styling  */
+/* souls adventure */
+.souls-adventure-img {
+  position: relative;
+  max-width: 100%;
+  padding-top: 14.5rem;
+}
+
+.souls-languages-img {
+  max-width: 100%;
+  padding-top: 1rem;
+}
+
+/* tweeter */
+.tweeter-img {
+  position: relative;
+  max-width: 100%;
+  padding-top: 4rem;
+}
+
+.tweeter-languages {
+  position: relative;
+  max-width: 100%;
+  padding-top: 2rem;
+}
+
+/* escape game */
+
+.escape-game-img {
+  position: relative;
+  max-width: 100%;
+  padding-top: 5rem;
+}
+.escape-game-languages {
+  position: relative;
+  padding-top: 6.5rem;
+  max-width: 100%;
+}
+
+/* button styling */
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #fff;
+  background-color: #679436;
+  border-color: #97b676;
+}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #fff;
+  background-color: #55876c;
+  border-color: #97b676;
+}
