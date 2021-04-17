@@ -10,16 +10,24 @@ a {
   text-decoration: none;
 }
 
+ul {
+  overflow: hidden;
+}
+
+li {
+  padding-right: 2rem;
+}
+
 /* section styling */
 
 /* top-nav section */
-.top-nav {
+/* .top-nav {
   background-color: #55876c;
   position: fixed;
   height: 8rem;
   max-width: 100%;
   z-index: 1;
-}
+} */
 
 .contact-bar {
   padding-top: 10rem;
@@ -31,11 +39,23 @@ a {
 }
 .nav-bar-list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #55876c;
   display: flex;
-  justify-content: space-between;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 5rem;
+  justify-content: space-around;
+}
+
+.nav-list-item .nav-list-link {
+  line-height: 8rem;
+  padding: 8rem;
+  color: white;
+  text-align: center;
+}
+
+.nav-list-item .nav-list-link:hover {
+  background-color: #679436;
 }
 
 .bottom-bar-list {
@@ -43,9 +63,6 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-}
-li {
-  padding-right: 2rem;
 }
 
 .section-intro {
@@ -124,7 +141,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #fff;
-  background-color: #679436;
+  background-color: #55876c;
   border-color: #97b676;
 }
 .button.button-primary:hover,
@@ -138,6 +155,6 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #55876c;
+  background-color: #679436;
   border-color: #97b676;
 }
