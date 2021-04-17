@@ -19,16 +19,6 @@ li {
 }
 
 /* section styling */
-
-/* top-nav section */
-/* .top-nav {
-  background-color: #55876c;
-  position: fixed;
-  height: 8rem;
-  max-width: 100%;
-  z-index: 1;
-} */
-
 .contact-bar {
   padding-top: 10rem;
 }
@@ -134,6 +124,22 @@ li {
   max-width: 100%;
 }
 
+/* icon styling */
+.fab {
+  color: white;
+}
+
+.fab:hover {
+  color: #97b676;
+}
+
+.fas {
+  color: white;
+}
+
+.fas:hover {
+  color: #97b676;
+}
 /* button styling */
 .button.button-primary,
 button.button-primary,
