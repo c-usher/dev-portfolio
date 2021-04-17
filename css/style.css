@@ -27,6 +27,11 @@ li {
   height: 8rem;
   max-width: 100%;
 }
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
 .nav-bar-list {
   list-style-type: none;
   margin: 0;
@@ -141,6 +146,17 @@ li {
 .fas:hover {
   color: #679436;
   font-size: 300%;
+}
+/* drop down styling */
+.contact-drop-down {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.drop-down:hover .contact-drop-down {
+  display: block;
 }
 /* button styling */
 .button.button-primary,
