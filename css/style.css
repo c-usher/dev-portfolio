@@ -131,6 +131,7 @@ li {
 
 .fab:hover {
   color: #679436;
+  font-size: 300%;
 }
 
 .fas {
@@ -139,6 +140,7 @@ li {
 
 .fas:hover {
   color: #679436;
+  font-size: 300%;
 }
 /* button styling */
 .button.button-primary,
