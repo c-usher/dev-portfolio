@@ -99,8 +99,26 @@ li {
 }
 
 .souls-languages-img {
+  position: relative;
   max-width: 100%;
   padding-top: 1rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.souls-img-overlay {
+  position: absolute;
+
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.souls-img-container:hover .souls-img-overlay {
+  opacity: 1;
 }
 
 /* tweeter */
